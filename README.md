@@ -1,5 +1,5 @@
-# spring-boot-dex
-Spring Boot demo with Oauth authentication and Dex. 
+# Introduction
+This is a demo application based on Spring Boot. Authentication is implemented using Oauth Authorization Code grant and the Authorization Server used is [Coreos Dex](https://github.com/coreos/dex).
 
 # Setup
 1. Install Golang: https://golang.org/doc/install
