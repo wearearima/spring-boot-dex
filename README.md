@@ -24,18 +24,18 @@ cp spring-boot-demo.yaml $GOPATH/src/github.com/coreos/dex/examples
 ```
 
 # Run
-5. Run dex:
+1. Run dex:
 
 ```
 cd $GOPATH/src/github.com/coreos/dex
 ./bin/dex serve examples/spring-boot-demo.yaml
 ```
 
-6. Run Spring Boot demo application
+2. Run Spring Boot demo application
 ```
 mvn spring-boot:run
 ```
 
-7. Go to http://localhost:8080/
+3. Go to http://localhost:8080/
 
 Credentials to authenticate in Dex: admin@example.com / password
