@@ -20,7 +20,7 @@ git clone https://github.com/wearearima/spring-boot-dex.git
 4. Copy the dex configuration file for this spring-boot demo application
 
 ```
-cp spring-boot-demo.yaml $GOPATH/src/github.com/coreos/dex/examples
+cp spring-boot-dex/spring-boot-demo.yaml $GOPATH/src/github.com/coreos/dex/examples
 ```
 
 # Run
