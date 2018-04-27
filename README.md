@@ -39,3 +39,6 @@ mvn spring-boot:run
 3. Go to http://localhost:8080/
 
 Credentials to authenticate in Dex: admin@example.com / password
+
+# Credits
+Created by https://www.arima.eu
