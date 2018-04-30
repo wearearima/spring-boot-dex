@@ -6,4 +6,5 @@ VOLUME /tmp
 COPY target/spring-boot-dex-*.jar app.jar
 
 #Add a system property pointing to "/dev/urandom" as a source of entrop to reduce Tomcat startup time
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+CMD /usr/bin/java -jar app.jar -Djava.security.egd=file:/dev/./urandom
+EXPOSE 8080
